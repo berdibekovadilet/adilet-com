@@ -8,9 +8,9 @@ export const Header = () => {
     };
 
     return (
-        <nav className='hidden md:flex justify-between my-8'>
-            <p>Adilet Berdibekov</p>
-            <div>
+        <nav className='flex justify-between my-8'>
+            <p className="hidden md:flex">Adilet Berdibekov</p>
+            <div className="hidden md:flex flex-col">
                 <a href="https://wa.me/+996702324322" target="_blank" rel="noopener" className='hover:underline underline-offset-8'>
                     <p className='mb-3'>whatsapp</p>
                 </a>
