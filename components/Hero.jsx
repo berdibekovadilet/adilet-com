@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
         <div className='my-16'>
             <h1 className="text-3xl md:text-[56px] leading-snug md:leading-tight">
-                React Front-End Developer ✦ Currently enhancing digital banking solutions at MBusiness ✦ Passionate
+                React Front-End Developer ✦ Currently enhancing digital banking solutions at <a href="https://smart.mbusiness.kg/" className="underline underline-offset-8">MBusiness</a> ✦ Passionate
                 about creating high-performance web applications and e-commerce platforms
             </h1>
             <div className='mt-[36px] flex flex-col md:flex-row gap-2'>
