@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import Mbusiness from "/public/portfolio/mbusiness.png"
+import Shopcasio from "/public/covers/shopcasio.webp"
 import Jme from "/public/portfolio/jme.png"
 import Helpdesk from "/public/portfolio/helpdesk.png"
 import Dacha from "/public/portfolio/dacha.png"
@@ -13,12 +14,7 @@ export const Portfolio = () => {
                 <Image src={Mbusiness} alt={Mbusiness} width={940} height={440}/>
             </Link>
             <Link href="/shopcasio" target="_blank" rel="noopener" className='cursor-pointer'>
-                <video
-                    src="/portfolio/urlshortVideo.mp4"
-                    autoPlay
-                    loop
-                    muted
-                />
+                <Image src={Shopcasio} alt={Shopcasio} width={940} height={440}/>
             </Link>
             <Link href="/jme" target="_blank" rel="noopener" className='cursor-pointer'>
                 <Image src={Jme} alt={Jme} width={940} height={440}/>
