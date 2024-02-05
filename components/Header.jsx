@@ -26,7 +26,7 @@ export const Header = () => {
                 <a href="/files/CV_Adilet_Frontend.pdf" target="_blank" rel="noopener"
                    className='hover:underline underline-offset-8'>
                     <div className='flex items-center gap-1'>
-                        <p>Read CV</p>
+                        <p>Резюме CV</p>
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                              stroke-linecap="round"
                              stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg">
