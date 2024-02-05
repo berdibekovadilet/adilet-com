@@ -13,33 +13,26 @@ export default function Urlshort() {
                 <link rel="icon" href="/favicon.png"/>
             </Head>
             <div className="flex mb-8">
-                <Link href="/" className="text-gray-400 hover:text-white">Back</Link>
+                <Link href="/" className="text-gray-400 hover:text-white">Назад</Link>
                 <div className='w-full'>
                     <h2 className="font-bold text-center">URL Shorting</h2>
                 </div>
             </div>
             <Image src={Cover} alt={Cover} width={940} height={440} className='rounded mb-4'/>
             <p className="mb-3">
-                A user-friendly application specifically designed to simplify the process of shortening URLs.
+                Удобное приложение, специально разработанное для упрощения процесса сокращения URL-адресов.
             </p>
             <p className="mb-3">
-                This project was developed using the power of React to ensure high responsiveness and an intuitive
-                interface.
-
+                Этот проект был разработан с использованием возможностей React, чтобы обеспечить высокую отзывчивость и
+                интуитивно понятный интерфейс.
             </p>
             <p className="mb-3">
-                The application's state management was efficiently handled with the Redux Toolkit, showcasing its robust
-                capabilities.
-            </p>
-            <p className="mb-3">
-                This project not only served its primary function but also allowed for a deep
-                understanding of React's dynamic features and the practical implementation of Redux in a real-world
-                scenario.
+                Управление состоянием приложения было эффективно реализовано с помощью React и Redux.
             </p>
             <button
                 className='bg-white mt-8 px-6 py-3 flex items-center gap-2 rounded cursor-pointer hover:text-blue-500 text-black'>
                 <a href="https://urlshorting.netlify.app/" target="_blank" rel="noopener" className='cursor-pointer'>
-                    Visit Project
+                    Посетить проект
                 </a>
             </button>
         </div>

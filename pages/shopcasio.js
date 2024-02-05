@@ -13,35 +13,31 @@ export default function Shopcasio() {
                 <link rel="icon" href="/favicon.png"/>
             </Head>
             <div className="flex mb-8">
-                <Link href="/" className="text-gray-400 hover:text-white">Back</Link>
+                <Link href="/" className="text-gray-400 hover:text-white">Назад</Link>
                 <div className='w-full'>
                     <h2 className="font-bold text-center">ShopCasio</h2>
                 </div>
             </div>
             <Image src={Cover} alt={Cover} width={940} height={440} className='rounded mb-4'/>
             <p className="mb-3">
-                Casio is a globally recognized brand, and I had the opportunity to create an online store for an
-                authorized dealer in Kyrgyzstan.
+                Casio - всемирно известный бренд, и у меня была возможность создать интернет-магазин для авторизованного дилера в Кыргызстане.
             </p>
             <p className="mb-3">
-                The e-commerce site was developed on the Shopify platform using their API.
+                Сайт электронной коммерции был разработан на платформе Shopify с использованием их API.
             </p>
             <p className="mb-3">
-                The project utilized the headless framework Hydrogen, which is officially provided by Shopify, offering
-                a versatile and efficient environment for building a feature-rich online store.
+                В проекте использовался безголовый фреймворк Hydrogen, который официально предоставляется компанией Shopify и предлагает универсальную и эффективную среду для создания многофункционального интернет-магазина.
             </p>
             <p className="mb-3">
-                Interaction with the backend was carried out through GraphQL, ensuring efficient data transfer and a
-                seamless user experience.
+                Взаимодействие с бэкендом осуществлялось через GraphQL, что обеспечило эффективную передачу данных и бесперебойную работу пользователей.
             </p>
             <p className="mb-3">
-                This project highlighted my proficiency with Shopify's advanced features and the use of innovative
-                headless frameworks in creating responsive e-commerce solutions.
+                Этот проект демонстрирует мои навыки работы с расширенными возможностями Shopify и использования безголовых фреймворков при создании отзывчивых решений для электронной коммерции.
             </p>
             <button
                 className='bg-white mt-8 px-6 py-3 flex items-center gap-2 rounded cursor-pointer hover:text-blue-500 text-black'>
                 <a href="http://shopcasio.bstarco.kg/" target="_blank" rel="noopener" className='cursor-pointer'>
-                    Visit Project
+                    Посетить проект
                 </a>
             </button>
         </div>
